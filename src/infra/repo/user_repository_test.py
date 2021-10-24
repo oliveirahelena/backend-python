@@ -2,6 +2,7 @@ from faker import Faker
 
 from src.infra.config import DBConnectionHandler
 from src.infra.entities import Users as UsersModel
+
 from .user_repository import UserRepository
 
 faker = Faker()
