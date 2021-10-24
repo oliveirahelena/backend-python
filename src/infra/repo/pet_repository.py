@@ -1,6 +1,7 @@
 from typing import List
 
 from sqlalchemy.orm.exc import NoResultFound
+
 from src.data.interfaces import PetRepositoryInterface
 from src.domain.models.pets import Pets
 from src.infra.config import DBConnectionHandler
