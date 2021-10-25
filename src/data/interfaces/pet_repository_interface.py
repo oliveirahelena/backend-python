@@ -1,11 +1,10 @@
 from abc import ABC, abstractmethod
 from typing import List
-
 from src.domain.models import Pets
 
 
 class PetRepositoryInterface(ABC):
-    """Interface to pet repo"""
+    """Interface to Pet Repository"""
 
     @abstractmethod
     def insert_pet(self, name: str, specie: str, age: int, user_id: int) -> Pets:
