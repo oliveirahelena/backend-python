@@ -1,5 +1,6 @@
-from typing import Type
 from abc import ABC, abstractmethod
+from typing import Type
+
 from src.presenters.helpers import HttpRequest, HttpResponse
 
 
