@@ -1,6 +1,6 @@
-from src.presenters.controllers import FindUserController
 from src.data.find_user import FindUser
 from src.infra.repo.user_repository import UserRepository
+from src.presenters.controllers import FindUserController
 
 
 def find_user_composer() -> FindUserController:

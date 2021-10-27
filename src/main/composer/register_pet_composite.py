@@ -1,7 +1,7 @@
+from src.data.find_user import FindUser
+from src.data.register_pet import RegisterPet
 from src.infra.repo.pet_repository import PetRepository
 from src.infra.repo.user_repository import UserRepository
-from src.data.register_pet import RegisterPet
-from src.data.find_user import FindUser
 from src.presenters.controllers import RegisterPetController
 
 

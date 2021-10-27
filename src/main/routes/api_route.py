@@ -1,11 +1,12 @@
 from flask import Blueprint, jsonify, request
+
+from src.main.adapter import flask_adapter
 from src.main.composer import (
-    register_user_composer,
-    register_pet_composer,
     find_pet_composer,
     find_user_composer,
+    register_pet_composer,
+    register_user_composer,
 )
-from src.main.adapter import flask_adapter
 
 api_routes_bp = Blueprint("api_routes", __name__)
 
