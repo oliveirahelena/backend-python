@@ -1,0 +1,25 @@
+# Register Pet
+POST http://localhost:5000/api/pets HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Julito",
+    "specie": "dog",
+    "age": 2,
+    "user_information": {
+        "user_id": 1
+    }
+}
+
+###
+
+GET http://localhost:5000/api/pets?pet_id=49664 HTTP/1.1
+Accept: application/json
+
+###
+
+GET http://localhost:5000/api/pets?user_id=1 HTTP/1.1
+
+###
+
+GET http://localhost:5000/api/pets?user_id=1&pet_id=49665 HTTP/1.1
